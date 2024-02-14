@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1260px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.top-element {
+    max-width: 1260px;
+    height: 100px;
+    background-color: blue;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 0 0 12px 12px;
+}
