@@ -53,3 +53,12 @@
     margin-bottom: 20px;
     border-radius: 0 0 12px 12px;
 }
+
+.top-elements {
+    max-width: 800px;
+    height: 100px;
+    background-color: blue;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 0 0 12px 12px;
+}
