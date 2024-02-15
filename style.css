@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 .custom-loader {
-    position: fixed;
-    position: center;
-    top: 400px;
-    left: 950px;
+    margin: 200px auto;
     z-index: 100;
     width: 100px;
     height: 100px;
