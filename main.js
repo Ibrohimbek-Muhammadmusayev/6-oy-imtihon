@@ -3,6 +3,11 @@ const dark  = document.querySelector("#dark");
 const fullModal  = document.querySelector("#full-modal");
 const topelement = document.querySelector(".top-element");
 const body = document.querySelector("body");
+const loading = document.querySelector(".custom-loader");
+
+window.addEventListener("load", ()=>{
+    loading.style.display = "none";
+})
 
 dark.addEventListener("click", ()=>{
     dark.classList.toggle("pl-[30px]");
@@ -17,6 +22,8 @@ dark.addEventListener("click", ()=>{
 function deleteQil(element) {
     element.parentNode.removeChild(element);
 }
+
+
 
 document.addEventListener("DOMContentLoaded", ()=> {
     fetch("https://dummyapi.io/data/v1/post", {
